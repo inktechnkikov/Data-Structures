@@ -1,7 +1,5 @@
 package BasicTreeDataStructures.TreeDemo;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Tree<T>{
     public T value;
@@ -22,14 +20,27 @@ public class Tree<T>{
     }
     public Iterable<T> orderDFS(){
         List<T> result = new ArrayList<>();
-        this.DFS(this,result);
-        return result;
+       this.DFS(this,result);
+       return result;
     }
     public void DFS(Tree<T> tree,List<T> resultList){
         for (Tree<T> child : tree.children) {
             this.DFS(child,resultList);
         }
         resultList.add(tree.value);
+    }
+    public Iterable<T> orderBFS(){
+        List<T> result = new ArrayList<>();
+        Queue<Tree<T>> queue = new ArrayDeque<>();
+        queue.add(this);
+        while (!queue.isEmpty()){
+            Tree<T> current = queue.poll();
+            result.add(current.value);
+            for (Tree<T> child : current.children) {
+                queue.add(child);
+            }
+        }
+        return result;
     }
 
 }

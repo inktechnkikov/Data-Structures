@@ -12,8 +12,10 @@ public class Main {
                 new Tree<>(14,
                         new Tree<>(23),
                         new Tree<>(6)));
-          Iterable res = tree.orderDFS();
+        //  Iterable res = tree.orderDFS();
           StringBuilder builder = new StringBuilder();
-        System.out.println(builder.append(' ').append(res));
+      //  System.out.println(builder.append(' ').append(res));
+        Iterable printRes = tree.orderBFS();
+        System.out.println(builder.append(' ').append(printRes));
     }
 }
