@@ -26,7 +26,7 @@ public class BinaryTree{
 
         }
     }
-    public void traverse(){
+    public void inOrderTraverse(){
         //in-order traversal
         if(root!=null){
             Node nodeToTravers = root;
@@ -35,21 +35,22 @@ public class BinaryTree{
             }
            else{
                 if(nodeToTravers.leftChild !=null){
-                    this.inOrderTraverse(nodeToTravers.leftChild);
+                    this.inOrderTraverseImpl(nodeToTravers.leftChild);
                 }if(nodeToTravers.rightChild != null){
-                    this.inOrderTraverse(nodeToTravers.rightChild);
+                    this.inOrderTraverseImpl(nodeToTravers.rightChild);
                 }
             }
         }
     }
-    public void inOrderTraverse(Node node){
+    public void inOrderTraverseImpl(Node node){
         if(node.leftChild!=null){
-            this.inOrderTraverse(node.leftChild);
+            this.inOrderTraverseImpl(node.leftChild);
         }
         System.out.println(node.data);
         if(node.rightChild!= null){
-            this.inOrderTraverse(node.rightChild);
+            this.inOrderTraverseImpl(node.rightChild);
         }
+
        // System.out.println(node.data);
     }
 

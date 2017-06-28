@@ -29,8 +29,8 @@
       <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            <state relative-caret-position="347">
+              <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -52,8 +52,8 @@
       <file leaf-file-name="BinaryTreeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="306">
+              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -103,8 +103,8 @@
         <option value="$PROJECT_DIR$/src/BinarySearchTrees/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Main.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/Node.java" />
-        <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/BinaryTree/BinaryTreeTest.java" />
       </list>
     </option>
   </component>
@@ -719,20 +719,11 @@
       <workItem from="1497881395212" duration="9590000" />
       <workItem from="1497964049462" duration="27557000" />
       <workItem from="1498073377123" duration="13192000" />
-      <workItem from="1498394876817" duration="7095000" />
+      <workItem from="1498394876817" duration="9043000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryTreeTest - 2017.06.22 at 00h 53m 12s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest - 2017.06.22 at 00h 55m 18s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinaryTreeTest - 2017.06.22 at 00h 57m 08s.xml">
-      <configuration name="BinaryTreeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinaryTreeTest - 2017.06.22 at 00h 58m 06s.xml">
       <configuration name="BinaryTreeTest" configurationId="JUnit" />
     </history-entry>
@@ -754,9 +745,18 @@
     <history-entry file="BinaryTreeTest - 2017.06.28 at 18h 27m 32s.xml">
       <configuration name="BinaryTreeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BinaryTreeTest - 2017.06.28 at 21h 50m 50s.xml">
+      <configuration name="BinaryTreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest - 2017.06.28 at 21h 51m 34s.xml">
+      <configuration name="BinaryTreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeTest - 2017.06.28 at 21h 54m 07s.xml">
+      <configuration name="BinaryTreeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118741000" />
+    <option name="totallyTimeSpent" value="120689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
@@ -1094,14 +1094,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1113,10 +1105,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        <state relative-caret-position="347">
+          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
           <folding />
         </state>
       </provider>
