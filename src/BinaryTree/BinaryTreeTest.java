@@ -15,5 +15,8 @@ public class BinaryTreeTest {
         tree.add(85);
         tree.add(35);
         tree.add(60);
+
+        tree.traverse();
+
     }
 }

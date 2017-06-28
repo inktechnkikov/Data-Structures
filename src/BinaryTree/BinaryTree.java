@@ -30,10 +30,15 @@ public class BinaryTree{
         //in-order traversal
         if(root!=null){
             Node nodeToTravers = root;
-            if(nodeToTravers.leftChild!=null){
-                this.inOrderTraverse(nodeToTravers.leftChild);
-            }else{
+            if(nodeToTravers.leftChild == null && nodeToTravers.rightChild == null){
                 System.out.println(nodeToTravers.data);
+            }
+           else{
+                if(nodeToTravers.leftChild !=null){
+                    this.inOrderTraverse(nodeToTravers.leftChild);
+                }if(nodeToTravers.rightChild != null){
+                    this.inOrderTraverse(nodeToTravers.rightChild);
+                }
             }
         }
     }
@@ -41,11 +46,11 @@ public class BinaryTree{
         if(node.leftChild!=null){
             this.inOrderTraverse(node.leftChild);
         }
-        System.out.println(node.leftChild);
+        System.out.println(node.data);
         if(node.rightChild!= null){
             this.inOrderTraverse(node.rightChild);
         }
-        System.out.println(node.rightChild);
+       // System.out.println(node.data);
     }
 
 }
